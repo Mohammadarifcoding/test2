@@ -1,0 +1,468 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html{
+      scroll-behavior: smooth;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  /*Header starts*/
+  header{
+      background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(office-room.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height:100vh;
+      padding: 0;
+      margin: 0;
+  }
+  header .heading h1{
+      color:white;
+      padding-top: 18px;
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin-left: 7vw;
+      font-size: 22px;
+      padding-bottom: 30px;
+  }
+  header .content{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  header .content .text{
+      margin-left:7vw;
+      width:100%;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin-top: 18vh;
+  }
+  header .content .text h1{
+      font-size: 44px;
+      color: white;
+      font-weight: bolder;
+  }
+  header .content .text p{
+      color:white;
+      font-size: 19px;
+      margin-top: 25px;
+      margin-bottom: 25px;
+  }
+  header .content .text span{
+      color:white;
+      font-size: 13px;
+  }
+  header .content .text span i{
+      color:black;
+      background-color: white;
+      padding: 20px;
+      border-radius: 100%;
+      margin-right: 13px;
+  }
+  header .content .form{
+      width:350px;
+      margin-right: 7vw;
+      background-color:white;
+      margin-top: 70px;
+      margin-bottom: 10vh;
+      display: block;
+  }
+  header .content .form form{
+      display: flex;
+      flex-direction: column;
+      padding: 30px;  
+  }
+  header .content .form form h3{
+      color: black;
+      text-align: center;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 30px;
+      font-weight:500;
+      margin-bottom: 10px;
+  }
+  header .content .form form p{
+      text-align: center;
+      font-size: 17px;
+      margin-bottom:30px;
+  }
+  header .content .form form .fname,header .content .form form .lname,header .content .form form .email{
+      font-size: 15px;
+  }
+  header .content .form form .fname,header .content .form form .lname,header .content .form form .email,header .content .form form .fn,header .content .form form .ln,header .content .form form .e{
+      margin-bottom: 10px;
+  }
+  header .content .form form .fn ,header .content .form form .ln ,header .content .form form .e{
+      padding: 10px 20px;
+      border-radius: 5px;
+      border:1px solid gray;   
+  }
+  header .content .form form .btn{
+      margin-top: 5px;
+      padding: 12px;
+      background-color: #FCA40E;
+      color:white;
+      border: none;
+      border-radius:5px;
+  }
+  header .content .form form .btn:hover{
+      background-color:#cc870f;
+  }
+  header .content .text span i:hover{
+      background-color: black;
+      color:white;
+  }
+  
+  /*Header ends*/
+  /*What can we do starts*/
+  #imp{
+      margin-top: 20px;
+      background-color: white;
+      padding:50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin-bottom: 50px;
+  }
+  #imp .chapter{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width:330px;
+  }
+  #imp .chapter .span{
+      margin-right:14px;
+      margin-top: 5px;
+  }
+  #imp .chapter .span .fa-solid{
+      font-size: 32px;
+      margin-top: 5px;
+      color:#FAA912;
+  }
+  #imp .chapter .content h3{
+    font-size: 20px;
+    font-weight:500;
+  }
+  #imp .chapter .content p{
+      font-size:15px;
+      margin-top: 10px;
+      color:gray;
+  }
+  
+  /*What can we do ends*/
+  /*Our features starts*/
+  #our-features{
+      padding: 70px;
+      background-color:white;
+      color:gray;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  #our-features h1{
+      margin-top: 5px;
+      font-size: 27px;
+      color:black;
+      text-align: center;
+      margin-bottom: 70px;
+  }
+  #our-features .feature1, #our-features .feature2{
+      display: flex;
+      flex-direction:row;
+      justify-content: space-between;
+      align-items: center;
+  }
+  #our-features .feature1{
+      margin-bottom: 100px;
+      
+  }
+  #our-features .img1{
+      width:55%;
+      
+  }
+  #our-features .content1{
+      width:45%;
+  
+  }
+  #our-features .feature1 .img1 img,#our-features .feature2 .img2 img{
+      width:420px;
+  }
+  #our-features .feature1 .content1 h3{
+      color:black;
+      margin-bottom: 20px;
+      font-size: 21px
+  }
+  #our-features .feature2{
+      float: right;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 100px;
+  
+  
+  }
+  #our-features .feature2 .img2 img{
+      width:420px;
+  }
+  #our-features .feature2 .img2{
+      width:420px;
+      background-color: red;
+  
+  }
+  #our-features .content2{
+      width:45%;
+      
+     
+  }
+  
+  #our-features .feature2 .content2 h3{
+      color:black;
+      margin-bottom: 20px;
+      font-size: 21px
+  }
+  @media screen and (min-width:1001px) {
+    header .content .text{
+        width:350px;
+    }
+  }
+  
+  /*Our features ends*/
+  @media screen and (max-width:1000px) {
+      #our-features h1{
+          text-align: center;
+      }
+      #our-features{
+          display: flex;
+          flex-direction: column;
+      }
+  
+      #our-features .feature1, #our-features .feature2{
+          display: flex;
+          flex-direction: column;
+          justify-content:space-between;
+      }
+      #our-features .img1, #our-features .img2{
+          width:100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          padding-left: 0;
+          padding-right: 0;
+          margin-left: 0;
+          margin-right: 0;
+          margin-bottom: 30px;
+  
+      }
+      #our-features .content1, #our-features .content2{
+          width:100%;
+          margin-left: 0;
+          margin-right: 0;
+          margin-bottom: 30px;
+      }
+      #our-features .content1 .h3, #our-features .content2 .h3{
+           text-align:center;
+      }
+      #our-features .content1, #our-features .content2 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+      header .content .text{
+        padding-right:30px;
+      }
+      
+  }
+  @media screen and (max-width:928px) {
+      header{
+          height: auto;
+      }
+      header .content{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width:100%;
+      }
+      header .content .formto{
+          margin-left: auto;
+          margin-right: auto;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;   
+      }
+      header .heading h1{
+          margin-left:4vw;
+      }
+      header .content{
+          display: flex;
+          flex-direction: column;
+      }
+      header .content .text{
+          margin-left: 4vw;
+          width:300px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+  
+      }
+      
+      header .content .text span{
+          margin-left:-140px;
+      }
+      #our-features h1{
+          text-align: center;
+      }
+      #our-features{
+          display: flex;
+          flex-direction: column;
+      }
+  
+      #our-features .feature1, #our-features .feature2{
+          display: flex;
+          flex-direction: column;
+          justify-content:space-between;
+      }
+      #our-features .img1, #our-features .img2{
+          width:100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          padding-left: 0;
+          padding-right: 0;
+          margin-left: 0;
+          margin-right: 0;
+          margin-bottom: 30px;
+  
+      }
+      #our-features .content1, #our-features .content2{
+          width:100%;
+          margin-left: 0;
+          margin-right: 0;
+          margin-bottom: 30px;
+      }
+      #our-features .content1 .h3, #our-features .content2 .h3{
+           text-align:center;
+      }
+      #our-features .content2{
+          padding-right: 60px;
+      }
+  
+  
+  }
+  @media screen and (max-width:728px){
+      #imp{
+          display: flex;
+          flex-direction:column;
+          justify-content: space-between;
+          
+      }
+      #imp .chapter{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          width:100%;
+          float: left;
+          margin-bottom: 30px;
+      }
+      #imp .chapter .span{
+          width: 100%;
+          text-align: center;
+          margin-right:0px;
+          margin-left: 0px;
+      }
+      #imp .chapter .span .fa-solid{
+          margin-left: 0px;
+          margin-right: 0px;
+          text-align: center;
+          width:100%;
+          font-size:40px;
+          margin-bottom: 10px;
+      }
+      #imp .chapter .content h3{
+          text-align: center;
+      }
+      #imp .chapter .content p{
+          text-align: center;
+      }
+      #our-features h1{
+          text-align: center;
+      }
+      #our-features{
+          display: flex;
+          flex-direction: column;
+      }
+  
+      #our-features .feature1, #our-features .feature2{
+          display: flex;
+          flex-direction: column;
+          justify-content:space-between;
+      }
+      #our-features .img1, #our-features .img2{
+          width:100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          padding-left: 0;
+          padding-right: 0;
+          margin-left: 0;
+          margin-right: 0;
+          margin-bottom: 30px;
+  
+      }
+      #our-features .content1, #our-features .content2{
+          width:100%;
+          margin-left: 0;
+          margin-right: 0;
+          margin-bottom: 30px;
+      }
+      #our-features .content1 .h3, #our-features .content2 .h3{
+           text-align:center;
+      }
+      #our-features .content1, #our-features .content2 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+  
+  
+  
+  }
+  @media screen and (max-width:600px) {
+    header .header .content .form{
+        margin-right: 0;
+        margin-left: 0;
+        width:100%;
+    }
+    header{
+        width:100%;
+    }
+    .header .content {
+       display: flex; 
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    .header .content .text h1{
+        font-size: 32px;
+    }
+    .header .content .text p{
+        font-size: 15px;
+
+    }
+    header .content .text span i{
+        color:black;
+        background-color: white;
+        padding: 20px;
+        border-radius: 100%;
+    }
+    .formto{
+        padding: 30px;
+    }
+    
+  }
+  
+  
